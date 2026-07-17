@@ -1,1 +1,28 @@
-
+                  Sales Data (CSV)
+                         │
+                         ▼
+                  Python Ingestion
+                         │
+                         ▼
+                Amazon S3 (Raw Zone)
+                         │
+                         ▼
+                AWS Glue (PySpark ETL)
+                         │
+                         ▼
+             Amazon S3 (Curated Zone)
+                         │
+                         ▼
+               AWS Glue Data Catalog
+                         │
+                         ▼
+                  Amazon Athena
+                         │
+                         ▼
+                Business Analytics
+                         ▲
+                         │
+              Apache Airflow (MWAA)
+                         │
+                         ▼
+           CloudWatch + SNS Notifications
