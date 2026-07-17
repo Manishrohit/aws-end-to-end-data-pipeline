@@ -1,1 +1,9 @@
 
+pandas
+numpy
+boto3
+awswrangler
+pyspark
+apache-airflow
+s3fs
+pyarrow
